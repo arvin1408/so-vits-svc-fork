@@ -156,3 +156,23 @@ tests/**/*.yaml
 *.tfevents.*
 *.pt
 user_gui_presets.json
+
+# data files
+dataset
+dataset_raw
+dataset_raw_error
+dataset_processed
+dataset_source
+audacity
+audio
+
+# model files
+logs
+logs/*/*.pth
+
+# utils - refine later
+utils
+*.egg-info/
+.installed.cfg
+*.egg
+#
